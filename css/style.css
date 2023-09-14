@@ -1,0 +1,412 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: inherit;
+  height: 100%;
+  font-family: "Roboto";
+}
+
+a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+*, *::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1110px;
+}
+
+.list-reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* Header */
+
+
+
+.header {
+  background: #3F2AFF;
+  padding: 30px 0px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+
+.header-logo-img {
+  max-width: 94px;
+  height: 21px;
+}
+
+.headedr-list {
+  margin-left: auto;
+  display: flex;
+  gap: 56px;
+}
+
+.header-list_item_link {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Main*/
+
+#main {
+  background: radial-gradient(44.07% 44.07% at 67.78% 55.93%, #555681 0%, #212133 100%);
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 70px;
+}
+
+.main-right {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 12px;
+}
+
+.main-right_img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.main-title {
+  max-width: 459px;
+  margin-top: 130px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.main-desc {
+  max-width: 444px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.main-button {
+  max-width: 272px;
+  height: 69px;
+  margin-bottom: 130px;
+  text-align: center;
+  border: 1px solid #3F2AFF;
+  border-radius: 20px;
+  background: #3F2AFF;
+  padding: 24px 75px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* About */
+
+#about {
+  padding: 80px 0px;
+}
+
+.about-up {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.about-up_img {
+  width: 160px;
+  height: 142px;
+}
+
+.about-up-right {
+  display: flex;
+  flex-direction: column;
+  max-width: 585px;
+}
+
+.about-up-left {
+  display: flex;
+  align-items: center;
+}
+
+.about-up_title {
+  margin-bottom: 30px;
+  color: #2E2B44;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.about-up_desc {
+  color: #666;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+
+.about-bottom_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-bottom_list_item {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.about-bottom_list_item {
+  flex-wrap: wrap;
+}
+
+.about-bottom_list_item_desc {
+  display: flex;
+  max-width: 240px;
+}
+
+.about-bottom_list_item svg {
+  width: 80px;
+  height: 80px;
+}
+
+.about-bottom_list_item_desc {
+  color: #666;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+/* Teachers */
+
+#teachers {
+  padding: 80px 0px;
+  background: #212133;
+}
+
+
+
+.teachers-title {
+  padding-left: 15px;
+  margin-bottom: 30px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+
+.teachers-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.teachers-list_item {
+  display: flex;
+  flex-direction: column;
+  max-width: 247px;
+}
+
+.teacher-list_item_img {
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+.teacher-list_name {
+  margin-bottom: 15px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.teacher-list_desc {
+  color: #85859B;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+/* Curses*/
+
+#curses {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.curses-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.curses-list_img {
+  position: relative;
+}
+
+.curses-list_clock {
+  position: absolute;
+  top: 12px;
+  left: 400px;
+  max-width: 100px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.curses-list_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 525px;
+}
+
+
+.curses-list_item_img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  max-width: 690px;
+}
+
+.curses_title {
+  padding-left: 15px;
+  margin-bottom: 30px;
+  color: #212133;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.curse-list_wrappper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex: 1;
+  padding: 30px;
+  border-radius: 0px 0px 20px 20px;
+  background: #EDF0F9;
+}
+
+.curse-list_wrappper_title {
+  margin-bottom: 30px;
+  color: #212133;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.curse-list_wrappper_desc {
+  margin-bottom: 30px;
+  color: #666;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.curse-list_wrapper_button {
+  padding: 20px 60px;
+  border: 1px solid #3F2AFF;
+  border-radius: 20px;
+  background: #3F2AFF;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Footer */
+
+.footer {
+  background: #2E2B44;
+  padding: 28px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-bottom {
+  background: #FFF;
+}
+
+.footer-bottom {
+  text-align: center;
+}
